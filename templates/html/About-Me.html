@@ -1,0 +1,38 @@
+<title>About-Me</title>
+{% extends "html/index.html" %}
+
+{% load static %}
+
+   {% block nav %}
+
+<!--photo div-->
+<div class="contianer-fluid bg-light mt-5">
+    <div class="row">
+        <div class="col-md-6 mt-" id="ab">
+            <img src="{% static 'images/jay.jpg' %} " class="rounded" height="450px" width="350px" style=" box-shadow: 5px 10px 18px 5px #888888;">
+        </div>
+        <div class="col-md-6" id="bc">
+            <h2>Hi, I'm Jay Lawale a passionate wedding photographer, living in Nanded Maharashtra</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, pro ei justo mnesarchum, ad partem epicurei quo, iusto errem no cum. Idque minim his ut. Ut cum legendos similique,
+            quo an tantas aliquip graecis. Nec et consul voluptatum,
+            mel ex solum facete consequat. Cu eos lucilius gubergren,
+            ad sale definitionem his.</p>
+            <blockquote class="lead text-muted">-Jay Lawale</blockquote>
+            </div>
+
+</div>
+</div><!--end div-->
+
+<!--Awards-->
+<div class="contianer">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="ml-5 ">Awards</h1>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span class="text-muted"> 2019 </span><h4>Young Photo Contest</h4></li>
+                <li class="list-group-item"><span class="text-muted">2018</span><h4>Wedding Mag Portrait Category</h3></li>
+            </ul>
+        </div>
+    </div>
+</div>
+   {% endblock %}
