@@ -1,0 +1,1 @@
+web: gunicorn aj-creation.wsgi
